@@ -1,0 +1,51 @@
+    public class Sugestao{
+
+    public String data;
+    public String descrição;
+    private int status;
+
+    public static void main(String[] args) {
+
+    }
+
+    public int getStatus() {
+        return status;
+    }
+}
+    public class Problema {
+    public String data;
+    public String descrição;
+    public int tipo;
+    private int status;
+
+    public static void main(String[] args) {
+
+    }
+    public int getStatus() {
+        return status;
+    }
+}
+    public class Funcionario {
+
+    private String nome;
+    private int registro;
+    private int score;
+
+    public static void main(String[] args) {
+
+    }
+    public Funcionario(nome, registro){
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public  int getRegistro(){
+        return registro;
+    }
+
+    public int getScore() {
+        return score;
+    }
+}
